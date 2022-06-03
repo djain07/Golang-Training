@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-var userSalary byte = 255
+var userSalary int = 255
 var userSalary1 int16 = 3000
 var userSalary2 byte = 30
 var userSalary3 byte = 30
