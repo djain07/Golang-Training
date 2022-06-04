@@ -10,7 +10,7 @@ import (
 // Employee
 
 func main() {
-	userdata := "Employee"
+	userdata := "CEO"
 
 	switch userdata {
 	case "Director":
@@ -20,6 +20,7 @@ func main() {
 		fmt.Println("User was a VP")
 		fallthrough
 	case "Manager":
+	case "CEO":
 		fmt.Println("User was a Manager")
 		fallthrough
 	case "Employee":
